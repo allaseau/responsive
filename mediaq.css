@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    body {
+      background-color: green;
+    }
+    #large, #small {
+        display: none;
+    }
+}
+@media (max-width: 410px) {
+    body {
+      background-color: red;
+    }
+    #large, #medium {
+        display: none;
+    }
+}
